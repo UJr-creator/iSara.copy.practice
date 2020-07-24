@@ -1,0 +1,1232 @@
+/*----------------------------------------------*/
+/*全体*/
+/*----------------------------------------------*/
+
+.responsive-br {
+  display: inline;
+}
+
+/*「鍵かっこ」白*/
+
+#middle-message2 > h2::before,
+#message-point::before {
+  content:" ";
+  display:inline-block;
+  box-sizing: border-box;
+  width:30px;
+  height:30px;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+
+#middle-message2 > h2::after,
+#message-point::after {
+  content:" ";
+  display:inline-block;
+  box-sizing: border-box;
+  width:30px;
+  height:30px;
+  border-bottom: 5px solid white;
+  border-right: 5px solid white;
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+
+/*鍵かっこオレンジ*/
+
+#introbottom h1::before,
+#conclusion h2::before,
+#merit-message::before {
+  content:" ";
+  display:inline-block;
+  box-sizing: border-box;
+  width:30px;
+  height:30px;
+  border-top: 5px solid #ebb94d;
+  border-left: 5px solid #ebb94d;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+#introbottom h1::after,
+#conclusion h2::after,
+#merit-message::after {
+  content:" ";
+  display:inline-block;
+  box-sizing: border-box;
+  width:30px;
+  height:30px;
+  border-bottom: 5px solid #ebb94d;
+  border-right: 5px solid #ebb94d;
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+
+#pagetop {
+  position:fixed;
+  display: block;
+  bottom:20px;
+  right:13px;
+  background-color: #ececec;
+  padding:2px 15px;
+  z-index:3;
+  opacity:1;
+  font-size:14px;
+}
+
+#pagetop a {
+      display: inline-block;
+}
+
+.fa-chevron-up {
+  font-size:16px;
+  font-weight: bolder;
+  color:black;
+  position: relative;
+  top:-5px;
+}
+
+
+/*----------------------------------------------*/
+/*ヘッダー*/
+/*----------------------------------------------*/
+
+#page-title > p {
+  display:none;
+}
+
+#header-logo > p {
+  display:block;
+  font-size:10px;
+  margin:0;
+}
+#header-logo {
+  margin-left:12px;
+}
+
+
+#header-logo img {
+  width:90px;
+  height:31px;
+}
+
+#header {
+  height:62px;
+}
+
+#page-title {
+  width: 100%;
+  height:62px;
+  padding:0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+#document-request {
+  display: block;
+  background-color: #DA6B64;
+  text-align: center;
+  padding:9px 11px;
+  height:62px;
+  box-sizing: border-box;
+}
+
+#document-request img {
+  width:20px;
+  display:block;
+  margin:0 auto;
+  height:24.82px;
+}
+
+#page-title p {
+  font-size:10px;
+}
+
+#page-title a {
+  font-size:12px;
+  color:white;
+  letter-spacing:0.1em;
+  padding:0px;
+  line-height:21px;
+  display: block;
+}
+
+
+
+#header-contact {
+  display: none;
+}
+
+/*----------------------------------------------*/
+/*メイン*/
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*冒頭部（top-wrapper）*/
+/*----------------------------------------------*/
+
+#top-wrapper {
+  background-image: url(image/phoneimg/mainsp.jpg);
+  background-size: cover;
+  background-position: center;
+  margin:0;
+  padding:30px;
+  height:312px;
+  box-sizing: border-box;
+}
+
+#top-wrapper-message {
+  position:relative;
+  top:0;
+}
+
+.top--wrapper-txt1 {
+  font-size:18px;
+  margin-top:10px;
+}
+
+.top--wrapper-txt2 {
+  font-size:15px;
+}
+
+#top-wrapper img {
+  margin-top:15px;
+}
+
+
+/*----------------------------------------------*/
+/*資料請求（second-wrapper）*/
+/*----------------------------------------------*/
+#second-wrapper {
+  padding:15px 0;
+}
+
+
+#second-wrapper-txt1 {
+  font-size:15px;
+  margin:0 0 5px;
+}
+
+
+#second-wrapper-comment {
+  font-size:13.5px;
+}
+
+#second-wrapper-contact {
+  padding:15px 20px;
+  width:90%;
+  margin:25px auto 10px;
+  border-radius: 50px;
+}
+
+#second-wrapper a {
+  color:white;
+  font-size: 18px;
+  font-weight:bolder;
+  letter-spacing: 0.1em;
+  display: block;
+  width:100%;
+  margin:0 auto;
+  box-sizing: border-box;
+}
+
+
+#second-wrapper-txt2 p {
+  font-size: 15px;
+  line-height: 1.5em;
+  color:white;
+  margin: 0 0 25px;
+  letter-spacing: 0.1em;
+}
+
+
+/*----------------------------------------------*/
+/*イントロ最後（intro-bottom）*/
+/*----------------------------------------------*/
+#introbottom {
+  height:656px;
+  box-sizing: border-box;
+  width:100%;
+  padding:30px 0;
+  background-size:contain;
+  background-position: bottom;
+}
+
+
+#introbottom h1 {
+  color:#333333;
+  height:120px;
+  width:95%;
+  box-sizing: border-box;
+  margin:0 auto;
+  padding:25px 20px;
+  font-size:18px;
+  text-align: center;
+  position:relative;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+}
+
+
+#introbottom-txt {
+  padding:40px 0;
+}
+
+#introbottom-txt p {
+  font-size: 15px;
+  color: #333333;
+}
+
+
+/*----------------------------------------------*/
+/*エンジニアに必要なスキルとは*/
+/*----------------------------------------------*/
+
+
+#conclusion h2 {
+  color:#333333;
+  height:120px;
+  width:95%;
+  box-sizing: border-box;
+  margin:0 auto;
+  padding:25px 20px;
+  font-size:18px;
+  text-align: center;
+  position:relative;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+}
+
+
+#needed-skills {
+  width:95%;
+  box-sizing: border-box;
+  margin:30px auto;
+  padding: 10px;
+}
+
+#about {
+  width: 60px;
+  height:60px;
+  position:relative;
+  top:-30px;
+}
+#about p {
+  font-size: 12px;
+  position:relative;
+  top:22px;
+}
+
+#conclusion > p {
+  font-size:15px;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+}
+
+#needed-skills > p {
+  font-size:15px;
+  font-weight: bolder;
+}
+
+
+#five-skills {
+  padding:0 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  height:auto;
+}
+
+.skill-detail > img {
+  height:30px;
+}
+
+.skill-detail > p {
+  font-size: 10px;
+  margin: 10px 0;
+  letter-spacing: 0.1em;
+}
+.skill-detail {
+  display: block;
+  width: inherit;
+}
+
+/*----------------------------------------------*/
+/*イサラのコンセプト*/
+/*----------------------------------------------*/
+
+#isara-concept {
+  background-image: url(image/phoneimg/aboutsecondbgsp.jpg);
+  background-position: center;
+  background-size: cover;
+  padding:30px;
+  box-sizing: border-box;
+}
+
+#isara-concept h2 {
+  margin:20px auto;
+  color:white;
+  font-size:18px;
+}
+
+#isara-concept > p {
+  font-size:13px;
+  margin:20px 0;
+  font-weight:bolder;
+}
+
+#learning-step {
+  display: block;
+  width:100%;
+  margin:0 auto;
+}
+
+.step {
+  width:100%;
+  padding:15px 50px;
+  margin:0 auto 15px;
+  box-sizing: border-box;
+}
+
+.step > p {
+  font-size:12px;
+}
+
+.step-detail {
+  margin:15px 0 0;
+}
+
+.step-detail p {
+  font-size:12px;
+  margin:0;
+  font-weight: bolder;
+  line-height:1.8em;
+  letter-spacing: 0.1em;
+}
+
+/*----------------------------------------------*/
+/*ミドルメッセージ*/
+/*----------------------------------------------*/
+
+#middle-message {
+  padding:20px 0;
+}
+
+#middle-message p {
+  font-size: 12px;
+
+}
+
+/*----------------------------------------------*/
+/*iSara[イサラ]で学べること*/
+/*----------------------------------------------*/
+#learning-content {
+  padding:20px 0;
+  width:100%;
+}
+
+#learning-content > h2 {
+  font-size:18px;
+}
+
+#learning-content > p {
+  font-size:15px;
+  letter-spacing: 0.1em;
+}
+
+#learning-detail {
+  display:flex;
+  justify-content:space-between;
+  margin:0 0 15px;
+  padding:0 70px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#learning-detail img {
+  width:auto;
+  width: 120px;
+  padding:5px;
+}
+
+@media screen and (max-width:660px) {
+  #learning-detail img {
+    width:23%;
+  }
+}
+
+#learning-content > h4 {
+  font-size:12px;
+  margin:0 0 10px;
+  font-weight: normal;
+}
+
+
+/*----------------------------------------------*/
+/*iSara[イサラ]の３つのメリット*/
+/*----------------------------------------------*/
+
+
+#merit h2 {
+  font-size: 16px;
+}
+
+#merit h1 {
+  font-size: 24px;
+}
+
+#merit-detail {
+  display: flex;
+  justify-content:space-evenly;
+  box-sizing: border-box;
+}
+
+.merit-content {
+  padding:0 15px;
+  width:313px;
+  text-align: left;
+  margin-top:30px;
+  box-sizing: border-box;
+}
+
+.merit-content img {
+  height:180px;
+  width:300px;
+}
+
+.merit-content h3 {
+  font-size: 16px;
+}
+
+.merit-content p {
+  font-size: 14px;
+}
+
+#additional-merit  h1{
+  font-size:24px;
+}
+
+#additional-merit  h2{
+  font-size:16px;
+}
+#additional-merit  p{
+  font-size:14px;
+}
+
+#additional-merit + p{
+  font-size:12px;
+}
+
+
+/*----------------------------------------------*/
+/*iSara[イサラ]の３つのメリット*/
+/*----------------------------------------------*/
+#merit {
+  padding:30px 0;
+  width:100%;
+}
+
+#merit-message {
+  color:#333333;
+  width:95%;
+  height:125px;
+  margin:0 auto;
+  padding:15px 30px;
+  box-sizing: border-box;
+  text-align: center;
+  position:relative;
+}
+#merit-message h1 {
+  font-size: 18px;
+}
+
+#merit-message h2 {
+  font-size: 15px;
+  margin-bottom:15px;
+}
+
+
+#merit-detail {
+  display: block;
+  margin:0 auto;
+  width:100%;
+}
+
+.merit-content {
+  padding:0 15px;
+  width:100%;
+  box-sizing: border-box;
+  margin:30px auto 0;
+}
+
+.merit-content {
+  text-align: center;
+}
+
+.merit-content img {
+  width:100%;
+  height:120px;
+}
+
+.merit-content-detail {
+  padding:0 20px;
+}
+
+.merit-content h3 {
+  font-size: 15px;
+
+}
+
+.merit-content p {
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0.1em;
+}
+
+#additional-merit {
+  margin:15px 20px;
+  padding:10px;
+}
+
+#additional-merit  h1{
+  font-size:18px;
+}
+
+#additional-merit  h2{
+  font-size:15px;
+}
+#additional-merit  p{
+  font-size:10px;
+  font-weight: bold;
+    color:#333333;
+}
+
+#additional-merit + p{
+  font-size:12px;
+  margin:0 0 10px;
+  color:#333333;
+}
+
+/*----------------------------------------------*/
+/*創業メンバー*/
+/*----------------------------------------------*/
+#original-member {
+  width:100%;
+  padding:20px 0;
+  background-image: url(image/phoneimg/teacherbgsp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#original-member > h3 {
+  color:white;
+  font-size:18px;
+  margin:40px 0 10px;
+}
+
+#original-member > p {
+  color:white;
+  font-size:12px;
+  margin:40px 0 0;
+  letter-spacing: 0.1em;
+}
+
+#original-member-detail {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin:0 auto;
+  width:100%;
+
+}
+
+.member {
+  padding: 10px 10px 10px;
+  margin:0 auto;
+}
+
+
+.member img {
+  width:120px;
+  clip-path:circle(60px at center);
+  position:relative;
+  top:40px;
+}
+
+.member-detail {
+  border: 3px solid white;
+  padding:40px 10px 10px;
+}
+
+.member-detail p {
+  color:white;
+  font-weight: normal;
+  font-size:12px;
+  margin:0 0 10px;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+}
+
+.member-detail :nth-child(n+3) {
+  line-height:1.5em;
+  text-align: left;
+}
+
+
+/*----------------------------------------------*/
+/*Q&A*/
+/*----------------------------------------------*/
+#middle-message2 {
+  width:100%;
+  padding:20px 0;
+  position: relative;
+  text-align: center;
+}
+
+#middle-message2::after {
+  content:" ";
+  display:inline-block;
+  box-sizing: border-box;
+  margin:0;
+  width:30px;
+  height:30px;
+  background-color: #EBB94D;
+  position: absolute;
+  bottom:0;
+  transform:rotate(45deg);
+  margin:0 0 -15px -15px;
+}
+
+
+#middle-message2 h2 {
+  width:90%;
+  height:100px;
+  margin:0 auto;
+  padding:10px;
+  font-size:14px;
+  line-height:40px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  position:relative;
+  font-weight: 300;
+}
+
+#middle-message2 h2::after {
+    transform:rotate(0deg);
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+#QA {
+  height:60px;
+  text-align: center;
+}
+
+
+
+#QA p {
+  border-radius: 50%;
+  height:60px;
+  width:60px;
+  color:#EBB94D;
+  margin:0 auto;
+  line-height: 60px;
+  font-size: 12px;
+}
+
+
+/*----------------------------------------------*/
+/*interview*/
+/*----------------------------------------------*/
+
+#interview {
+  width:100%;
+  padding:20px 0;
+}
+
+#interview  > h1 {
+  font-size:18px;
+  margin:0 0 10px;
+}
+
+#interview  > p {
+  font-size:12px;
+  margin:0 0 10px;
+}
+
+#interview  > small {
+  font-size:12px;
+  margin:0 0 10px;
+}
+
+#interview-details {
+  width: 100%;
+  margin:0 auto;
+}
+
+.interview-detail img {
+  width: 30%;
+  border:2px solid #EBB94D;
+}
+
+.interview-detail {
+  display: flex;
+  padding:20px 0;
+  margin:0 10px;
+}
+
+.interview-message {
+  width:70%;
+  padding-left:15px;
+  font-style: italic;
+  font-size:18px;
+}
+
+.interview-message p {
+  color:#777777;
+  font-size:18px;
+  margin:0 0 10px;
+}
+
+
+
+/*----------------------------------------------*/
+/*イサラで学べること*/
+/*----------------------------------------------*/
+#learning-introduction {
+  background-image: url(image/phoneimg/classbgsp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  padding:20px 0;
+}
+
+#introduction-detail {
+  display: block;
+  width:100%;
+}
+
+#introduction-detail table {
+  border-collapse: collapse;
+  border:2px solid #016EA9;
+  width:97.5%;
+  box-sizing: border-box;
+  padding:20px 10px;
+  margin:0 auto 20px;;
+}
+
+.introduction th {
+  padding:10px;
+  font-size:12px;
+}
+
+.introduction caption {
+  background-color: #016EA9;
+  color:white;
+  padding:15px;
+  font-size:15px;
+}
+
+/*----------------------------------------------*/
+/*ミドルメッセージ3*/
+/*----------------------------------------------*/
+#middle-message3 {
+  padding:20px 0;
+}
+
+#middle-message3 h2 {
+  font-size: 15px;
+  letter-spacing: 0.1em;
+}
+
+
+/*----------------------------------------------*/
+/*受講の流れ*/
+/*----------------------------------------------*/
+
+#lecture-flow {
+  padding:20px 0;
+}
+
+#lecture-flow h2 {
+  font-size:18px;
+}
+
+#lecture-flow > img,
+#lecture-details > img {
+  display:none;
+}
+
+.flow-headline br {
+  display: none;
+}
+
+#lecture-details {
+  width:100%;
+  padding:15px;
+  box-sizing: border-box;
+}
+
+
+.lecture-flow-step {
+  display:block;
+  padding:0;
+  border-radius:5px;
+  margin:0 0 5px;
+}
+
+.flow-headline {
+  display: flex;
+  padding:10px 15px;
+  box-sizing: border-box;
+  width:auto;
+  height: 55px;
+  align-items: center;
+  text-align: left;
+}
+
+.flow-headline:hover {
+  cursor: pointer;
+}
+
+.flow-headline img {
+  width:35px;
+  height:35px;
+  margin: 0 15px 0 0;
+}
+
+.flow-headline h3 {
+  font-size:15px;
+  flex :1 0 auto;
+}
+
+.flow-headline h3:hover {
+  text-decoration: underline;
+}
+
+.flow-headline > .fa-angle-down {
+  display:block;
+  color: black;
+}
+
+.lecture-detail {
+  text-align:left;
+  width:100%;
+  padding:15px ;
+  box-sizing: border-box;
+  display:none;
+}
+
+.lecture-detail p {
+  color:#333333;
+  font-size:12px;
+}
+
+
+.lecture-detail h4 {
+  color:#333333;
+  font-size:12px;
+  margin:0;
+}
+
+
+/*----------------------------------------------*/
+/*バンコクである理由*/
+/*----------------------------------------------*/
+#learning-environment {
+  width:100%;
+  padding:20px 15px;
+  box-sizing: border-box;
+  background-image: url(image/phoneimg/bangkokbgsp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#environment-message {
+  margin:0 20px;
+}
+
+#environment-message h2 {
+  text-align: center;
+  font-size:24px;
+  margin:20px 0;
+}
+
+#environment-message h3 {
+  font-size:15px;
+  margin:20px 0 10px;
+}
+
+#environment-message h2 + p {
+  color:white;
+  font-size:12px;
+  font-weight: auto;
+  margin:0 0 20px;
+}
+
+.message-list {
+  margin:0 0 10px;
+  color:white;
+  font-size: 12px;
+}
+
+/*----------------------------------------------*/
+/*参加者特典*/
+/*----------------------------------------------*/
+
+#benefit {
+  width:100%;
+  padding:20px 0;
+}
+
+#benefit h2 {
+  font-size:18px;
+  margin:0 0 20px;
+}
+
+#benefit p {
+  font-size:12px;
+  letter-spacing: 0.1em;
+}
+
+
+#benefit-details {
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  border:2px solid white;
+  width:95%;
+  margin: 0 15px;
+  padding:30px;
+  box-sizing: border-box;
+}
+
+#benefit h3 {
+  font-size:18px;
+  width:250px;
+  background-color: #F7C23C;
+  top:40px;
+  position: relative;
+  letter-spacing: 0.1em;
+  font-weight: 200;
+}
+
+.benefit-detail {
+  display: flex;
+  box-sizing: border-box;
+  width:auto;
+  height:auto;
+  background-color: #F7C23C;
+  border-radius: 0;
+  padding:0;
+  margin:15px 0;
+}
+
+.benefit-detail h4 {
+  font-size:12px;
+  color: #F7C23C;
+  background-color: white;
+  border-radius: 50%;
+  font-weight: normal;
+  margin:0 auto;
+  width: 60px;
+  height:60px;
+  text-align: 60px;
+  padding:20px 0;
+  box-sizing: border-box;
+}
+
+.benefit-detail > p {
+  font-size:14px;
+  padding:10px 0;
+  box-sizing: border-box;
+  margin:0 10px;
+  width:75%;
+  text-align: left;
+  color:white;
+}
+
+.benefit-detail > div {
+  height:auto;
+  width:30%;
+}
+
+
+/*----------------------------------------------*/
+/*ミドルメッセージ３*/
+/*----------------------------------------------*/
+#middle-message4 {
+  width:100%;
+  padding:20px 10px;
+  box-sizing: border-box;
+  background-image: url(image/phoneimg/specialdetailsp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  text-align: center;
+}
+
+#middle-message4  br{
+  display: none;
+}
+
+
+#middle-message4 h2 {
+  font-size:18px;
+  letter-spacing: 1px;
+}
+
+#middle-message4 h3 {
+  color:white;
+  font-weight: lighter;
+  margin:0 0 40px;
+  font-size:12px;
+  letter-spacing: 0.1em;
+}
+
+#message-point {
+  position: relative;
+  width:97.5%;
+  height:100px;
+  box-sizing: border-box;
+  line-height: 100px;
+  margin:20px auto;
+  padding:10px;
+  font-size:18px;
+  position:relative;
+}
+
+
+/*----------------------------------------------*/
+/*創業者のメッセージ*/
+/*----------------------------------------------*/
+#member-message {
+  width:100%;
+  padding:20px 0;
+  text-align: center;
+}
+
+#member-message h2 {
+  font-size:18px;
+}
+
+#member-message h3 {
+  font-size:15px;
+}
+
+#member-messagedetail {
+  display:block;
+  width:95%;
+}
+
+#member-messagedetail img {
+  width:100%;
+  height:auto;
+}
+
+#member-messagedetail-in {
+  width:100%;
+  padding: 5px;
+}
+
+#member-messagedetail-in p {
+  margin:0 0 10px;
+  font-size:14px;
+  letter-spacing: 0.1em;
+}
+
+
+/*----------------------------------------------*/
+/*問合せフォーム*/
+/*----------------------------------------------*/
+#contact-form {
+  width:100%;
+  padding:20px 15px;
+  box-sizing: border-box;
+}
+
+#contact-form h2 {
+  font-size:18px;
+}
+
+#contact-form p {
+  font-size:12px;
+  margin:0 0 10px;
+}
+
+#contact-format {
+  width:100%;
+  margin: 0 auto;
+}
+
+
+
+#send {
+  width:100%;
+  margin:0 0 30px;
+}
+
+
+/*----------------------------------------------*/
+/*よくある質問*/
+/*----------------------------------------------*/
+
+#questions {
+  width:100%;
+  padding:20px 15px;
+  box-sizing: border-box;
+}
+
+#questions h2 {
+  font-size: 18px;
+  margin:10px 0;
+}
+
+
+/*ボタン装飾*/
+.question-box {
+    width:100%;
+    margin:0 auto 5px;
+    position:relative;
+    text-align: left;
+
+}
+
+.question-detail{
+  padding:7px 10px;
+  height:auto;
+}
+
+.fa-question-circle {
+  color:#016EA9;
+}
+
+.question {
+  font-size:15px;
+}
+
+.answer {
+  padding: 10px 20px;
+  font-size: 12px;
+  margin:0 0 10px;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+
+.fa-angle-down {
+  color:#dcdcdc;
+  font-size:20px;
+}
