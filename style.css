@@ -1,0 +1,1317 @@
+/*----------------------------------------------*/
+/*全体*/
+/*----------------------------------------------*/
+
+a, p, h1, h2, h3. h4, h5, h6 {
+  margin:0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+color:#333333;
+}
+
+#wrap {
+  overflow: hidden;
+ }
+
+body {
+  margin:0;
+  padding: 0;
+}
+
+
+img {
+  vertical-align: bottom;
+}
+
+.responsive-br {
+  display: none;
+}
+/*「鍵かっこ」白*/
+
+#middle-message2 > h2::before,
+#message-point::before {
+  content:" ";
+  display:inline-block;
+  box-sizing: border-box;
+  width:50px;
+  height:50px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+
+#middle-message2 > h2::after,
+#message-point::after {
+  content:" ";
+  display:inline-block;
+  box-sizing: border-box;
+  width:50px;
+  height:50px;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+
+/*鍵かっこオレンジ*/
+
+#introbottom h1::before,
+#conclusion h2::before,
+#merit-message::before {
+  content:" ";
+  display:inline-block;
+  box-sizing: border-box;
+  width:50px;
+  height:50px;
+  border-top: 3px solid #ebb94d;
+  border-left: 3px solid #ebb94d;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+#introbottom h1::after,
+#conclusion h2::after,
+#merit-message::after {
+  content:" ";
+  display:inline-block;
+  box-sizing: border-box;
+  width:50px;
+  height:50px;
+  border-bottom: 3px solid #ebb94d;
+  border-right: 3px solid #ebb94d;
+  position: absolute;
+  bottom:0;
+  right:0;
+}
+
+#pagetop a {
+    font-size:30px;
+      color:black;
+      display: block;
+}
+
+#pagetop {
+  position:fixed;
+  display: none;
+  bottom:90px;
+  right:50px;
+  background-color: #ececec;
+  padding:15px 25px;
+  z-index:3;
+}
+
+
+/*----------------------------------------------*/
+/*ヘッダー*/
+/*----------------------------------------------*/
+
+#header {
+  margin:0;
+  width:100%;
+  height:75px;
+  z-index:1;
+  background-color: white;
+  color:#333333;
+  position:fixed;
+
+}
+
+#page-title {
+  display:flex;
+  margin:0 auto;
+  max-width:calc(100%-20px);
+  width:1170px;
+  padding:20px 0;
+  height:35px;
+  align-items: center;
+  text-align: left;
+  position:relative;
+}
+
+#header-logo {
+  vertical-align: top;
+}
+
+#page-title img {
+  width:128px;
+  height:44.64px;
+  line-height: 90px;
+}
+
+
+#page-title p {
+  padding:0;
+  font-size:14px;
+  margin:0 0 0 6px;
+  height:22px;
+  position: relative;
+  top:8px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+#page-title a {
+  color:white;
+  font-size:14px;
+  letter-spacing:0.1em;
+  padding:11px 40px;
+  line-height:44px;
+}
+
+#header-contact {
+  text-align: right;
+  background-color: #DA6B64;
+  border-radius:25px;
+  height:44px;
+  position: absolute;
+  right:0;
+}
+
+#document-request {
+  display: none;
+}
+
+#header-contact img {
+  display: none;
+}
+
+#header-logo > p {
+  display: none;
+}
+
+/*----------------------------------------------*/
+/*メイン*/
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+/*冒頭部（top-wrapper）*/
+/*----------------------------------------------*/
+
+main {
+  position:relative;
+  top:47px;
+}
+
+#top-wrapper {
+  background-image:url(image/top-wrapper.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:500px;
+  width:100%;
+  text-align: center;
+　margin:0;
+  vertical-align: bottom;
+}
+
+#top-wrapper-message {
+  position:relative;
+  top:100px;
+  letter-spacing: 0.1em;
+}
+
+.top--wrapper-txt1 {
+  font-size:28px;
+  font-weight:600;
+  margin-bottom:0.4em;
+  line-height: 1em;
+}
+
+.top--wrapper-txt2 {
+  font-size:20px;
+  font-weight:600;
+  margin-bottom:0;
+  margin-top: 0;
+  line-height: 1em;
+}
+
+#top-wrapper img {
+  width:317px;
+  margin-bottom:2.5em;
+  margin-top:0.5em;
+  line-height:0.3em;
+}
+
+/*----------------------------------------------*/
+/*資料請求（second-wrapper）*/
+/*----------------------------------------------*/
+
+#second-wrapper {
+  width:100%;
+  background-color: #ebb94d;
+  text-align: center;
+  margin: 0;
+  padding:30px 0;
+}
+
+#second-wrapper-txt1 {
+  color:white;
+  font-weight: 600;
+  font-size:20px;
+  letter-spacing: 0.1em;
+  margin:0;
+}
+
+#second-wrapper-txt1  p{
+  margin: 0 0 5px;
+  color: white;
+}
+
+#second-wrapper-comment {
+  color:#c7254e;
+  background-color:white;
+  border-radius:3px;
+  display:inline-block;
+  margin:0 auto;
+  font-weight: bold;
+  font-size:18px;
+  margin-top: 5px;
+}
+
+#second-wrapper-contact {
+  display: block;
+  padding:30px 120px;
+  width:788px;
+  margin:45px auto;
+  border-radius: 50px;
+  background-color: #DA6B64;
+  opacity:0.9;
+}
+
+#second-wrapper a {
+  color:white;
+  font-size: 26px;
+  font-weight:bolder;
+  letter-spacing: 0.1em;
+  display: block;
+  width:785px;
+  margin:0 auto;
+  box-sizing: border-box;
+}
+
+#second-wrapper-txt2 {
+  color:white;
+  font-size:22px;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  margin:1em auto;
+  line-height: 2em;
+}
+
+
+#second-wrapper-txt2 p {
+
+  color:white;
+}
+
+
+.twitter-link {
+  display:flex;
+  justify-content: space-evenly;
+  width:210px;
+  margin:0 auto;
+  text-align: center;
+}
+
+
+.twitter p, .good p, .share p {
+  display:inline-block;
+  background-color: #0c7abf;
+  padding:2px 5px;
+  border-radius: 3px;
+  font-size:12px;
+  color:white;
+}
+
+/*----------------------------------------------*/
+/*イントロ最後（intro-bottom）*/
+/*----------------------------------------------*/
+#introbottom {
+  height:510px;
+  width:100%;
+  background-image: url(image/introbottom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding:40px 0;
+}
+
+
+#introbottom h1 {
+  color:#333333;
+  width:800px;
+  height:80px;
+  margin:0 auto;
+  padding:15px 30px;
+  font-size:28px;
+  text-align: center;
+  position:relative;
+  line-height: 80px;
+}
+
+
+#introbottom-txt {
+  padding:40px 0;
+}
+
+#introbottom-txt p {
+  font-size: 20px;
+  color: #333333;
+}
+
+#orange-line {
+  font-weight: bolder;
+  background: linear-gradient(transparent 70%, #ebb94d 70%);
+}
+
+/*----------------------------------------------*/
+/*エンジニアに必要なスキルとは*/
+/*----------------------------------------------*/
+
+#conclusion {
+  background-color: #FEF5E0;
+  width: 100%;
+  text-align:center;padding:0 0 40px;
+  margin:0;
+
+}
+
+#about {
+  height:80px;
+  width:80px;
+  border-radius: 50%;
+  background-color: #ebb94d;
+  margin: 0 auto;
+ position:relative;
+ top:-40px;
+}
+
+#about > p{
+  margin: 0;
+  position:relative;
+  top:30px;
+  font-weight: 200;
+    color:white;
+}
+
+#conclusion h2 {
+  color:#333333;
+  width:800px;
+  height:80px;
+  margin:0 auto;
+  padding:15px 30px;
+  font-size:28px;
+  text-align: center;
+  position:relative;
+}
+
+
+#needed-skills {
+  background-color: white;
+  border: 3px solid #ebb94d;
+  width:1000px;
+  margin:30px auto;
+  padding: 30px;
+}
+
+
+#about-message + p {
+  font-size:20px;
+}
+
+#needed-skills > p {
+  margin:0 0 10px;
+  font-size:20px;
+  display: inline-block;
+}
+
+#five-skills {
+  margin:0 auto;
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
+  padding:0;
+}
+
+.skill-detail {
+  text-align: center;
+  display: inline-block;
+}
+
+
+.skill-detail > p {
+  font-size: 12px;
+  margin:10px auto;
+  vertical-align: bottom;
+}
+
+.skill-detail {
+  padding: 10px;
+}
+
+/*----------------------------------------------*/
+/*イサラのコンセプト*/
+/*----------------------------------------------*/
+
+#isara-concept {
+  width:100%;
+  text-align: center;
+  background-image: url(image/aboutsecondbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding:40px 0;
+}
+
+#isara-concept h2 {
+  margin:20px 0;
+  color:white;
+  font-size:28px;
+}
+
+#isara-concept > p {
+  color:white;
+  margin:0 0 10px;
+  font-size:20px;
+  font-weight:bolder;
+}
+
+.mark {
+  color: #ebb94d;
+}
+
+#learning-step {
+  display:flex;
+  text-align: center;
+  margin:20px auto 0;
+  justify-content: space-evenly;
+  width:1170px;
+}
+
+.step {
+  background-color: white;
+  width:300px;
+  padding:30px 30px 20px;
+  color:#333333;
+  border-radius: 5px;
+}
+
+.step > p {
+  background-color: #ebb94d;
+  margin:0 0 10px;
+  font-size:16px;
+  color:white;
+  border-radius: 2px;
+  padding:3px 0;
+}
+
+.step-detail {
+  vertical-align: center;
+
+}
+
+/*----------------------------------------------*/
+/*ミドルメッセージ*/
+/*----------------------------------------------*/
+
+
+#middle-message {
+  width:100%;
+  text-align: center;
+  background-color: #016EA9;
+  padding:40px 0;
+}
+
+#middle-message p {
+  color:white;
+  margin:0 ;
+  font-size: 20px;
+  font-weight:bolder;
+  line-height:1.6em;
+}
+
+/*----------------------------------------------*/
+/*iSara[イサラ]で学べること*/
+/*----------------------------------------------*/
+#learning-content {
+  padding:40px 0;
+  width:100%;
+  text-align: center;
+}
+
+#learning-content > h2 {
+  font-size:28px;
+  margin:20px 0 35px;
+}
+
+#learning-content > p {
+  font-size:20px;
+  margin:0 0 10px;
+}
+
+#learning-detail {
+  display:flex;
+  justify-content: center;
+  margin:50px 0;
+}
+
+#learning-detail img {
+  width:180px;
+  padding:0 15px;
+}
+
+#learning-content > h4 {
+  font-size:16px;
+  margin:0 0 10px;
+  font-weight: normal;
+}
+
+/*----------------------------------------------*/
+/*iSara[イサラ]の３つのメリット*/
+/*----------------------------------------------*/
+#merit {
+  padding:40px 0;
+  background-color: #FEF5E0;
+  text-align: center;
+}
+
+#merit-message {
+  color:#333333;
+  width:800px;
+  height:80px;
+  margin:0 auto;
+  padding:15px 30px;
+  font-size:28px;
+  text-align: center;
+  position:relative;
+}
+
+#merit h2 {
+  font-size: 20px;
+  margin:0;
+}
+
+#merit h1 {
+  font-size: 28px;
+  margin:0;
+}
+
+#merit-detail {
+  display: flex;
+  justify-content: center;
+}
+
+.merit-content {
+  padding:0 15px;
+  width:360px;
+  text-align: left;
+  margin-top:30px;
+}
+
+.merit-content img {
+  height:180px;
+  width:360px;
+}
+
+.merit-content h3 {
+  color:#EBB94D;
+  font-size: 20px;
+  margin:8px 0;
+}
+
+.merit-content p {
+  color:#333333;
+  font-size: 16px;
+  margin:8px 0;
+}
+
+#additional-merit {
+  margin:40px 135px;
+  padding:40px 20px;
+  border:2px solid orange;
+  background-color:white;
+}
+
+#additional-merit  h1{
+  color:#EBB94D;
+  font-size:28px;
+  margin:0 0 10px;
+}
+
+#additional-merit  h2{
+  font-size:20px;
+  margin:0 0 10px;
+}
+#additional-merit  p{
+  font-size:16px;
+  margin:0 0 10px;
+  font-weight: bold;
+}
+
+#additional-merit + p{
+  font-size:14px;
+  margin:0 0 10px;
+  color:#333333;
+}
+/*----------------------------------------------*/
+/*創業メンバー*/
+/*----------------------------------------------*/
+#original-member {
+  width:100%;
+  text-align: center;
+  padding:40px 0;
+  background-image: url(image/teacherbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}
+
+
+#original-member > p {
+  color:white;
+}
+
+#original-member-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin:0 auto;
+  width:800px;
+
+}
+
+.member {
+  padding:10px;
+  margin-right:20px;
+}
+
+
+.member img {
+  clip-path:circle(100px at center);
+  position:relative;
+  top:30px;
+}
+
+.member-detail {
+  border: 3px solid white;
+  padding:30px;
+}
+
+.member-detail p {
+  color:white;
+  font-weight: normal;
+
+}
+
+
+/*----------------------------------------------*/
+/*Q&A*/
+/*----------------------------------------------*/
+#middle-message2 {
+  background-color: #EBB94D;
+  width:100%;
+  text-align: center;
+  padding:40px 0;
+  position: relative;
+  text-align: center;
+}
+
+#middle-message2::after {
+  content:" ";
+  display:inline-block;
+  box-sizing: border-box;
+  margin:0;
+  width:50px;
+  height:50px;
+  background-color: #EBB94D;
+  position: absolute;
+  bottom:0;
+  transform:rotate(45deg);
+  margin:0 0 -25px -25px;
+}
+
+#middle-message2 p {
+  color:white;
+  margin:0 ;
+  font-size: 20px;
+  font-weight:100;
+  line-height:1.6em;
+}
+
+#middle-message2 h2 {
+  color:white;
+  width:800px;
+  height:80px;
+  margin:0 auto;
+  padding:15px 30px;
+  font-size:28px;
+  text-align: center;
+  position:relative;
+}
+
+#middle-message2 h2::after {
+    transform:rotate(0deg);
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+#QA {
+  height:80px;
+  text-align: center;
+}
+
+#QA p {
+  background-color: white;
+  border-radius: 50%;
+  height:80px;
+  width:80px;
+  color:#EBB94D;
+  margin:0 auto;
+  line-height: 80px;
+  font-size: 16px;
+}
+
+
+/*----------------------------------------------*/
+/*interview*/
+/*----------------------------------------------*/
+
+#interview {
+  text-align:center;
+  width:100%;
+  padding:40px 0;s
+}
+
+#interview-details {
+  width: 800px;
+  margin:0 auto;
+}
+
+.interview-detail img {
+  width: 245px;
+  border:2px solid #EBB94D;
+}
+
+.interview-detail {
+  display: flex;
+  padding:20px 0;
+}
+
+.interview-message {
+  width:500px;
+  text-align: left;
+  padding-left:30px;
+  font-style: italic;
+  font-size:19px;
+}
+
+.interview-message p {
+  color:#777777;
+}
+
+
+.name {
+  font-size:15px;
+  text-decoration: underline;
+  font-size:0.9em;
+}
+
+/*----------------------------------------------*/
+/*イサラで学べること*/
+/*----------------------------------------------*/
+#learning-introduction {
+  background-image: url(image/classbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  padding:40px 0;
+    text-align: center;
+}
+
+#learning-introduction h2 {
+  color:white;
+  font-size:18px;
+}
+
+#learning-introduction p {
+  color:white;
+  font-size:12px;
+}
+
+#introduction-detail {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin:20px 0;
+}
+
+#introduction-detail table {
+  border-collapse: collapse;
+  border:2px solid #016EA9;
+
+  padding:0 15px;
+  width:375px;
+  margin:0 15px;
+}
+
+table {
+    border-radius: 10%;
+     border-spacing: 0;
+
+}
+
+.introduction tr {
+  background-color: white;
+}
+
+.introduction tr:nth-child(n+2) {
+  border-top:1px dotted #dcdcdc;
+}
+
+.introduction th {
+  padding:10px 20px;
+}
+
+
+.introduction caption {
+  background-color: #016EA9;
+  color:white;
+  padding:15px 10px;
+}
+
+/*----------------------------------------------*/
+/*ミドルメッセージ3*/
+/*----------------------------------------------*/
+#middle-message3 {
+  width:100%;
+  text-align: center;
+  background-color: #016EA9;
+  padding:40px 0;
+}
+
+#middle-message3 h2 {
+  color:white;
+  margin:0 ;
+  font-size: 20px;
+  font-weight:bolder;
+  line-height:1.6em;
+}
+
+/*----------------------------------------------*/
+/*受講の流れ*/
+/*----------------------------------------------*/
+
+#lecture-flow {
+  width:100%;
+  text-align:center;
+  padding:40px 0;
+}
+
+#lecture-flow h2 {
+  font-size:28px;
+  color:#333333;
+  margin:20px 0 10px;
+}
+
+#lecture-flow > img {
+  margin:40px 0;
+}
+
+#lecture-details {
+  width:1175px;
+  margin:0 auto;
+
+}
+
+.lecture-flow-step {
+  display:flex;
+  justify-content: center;
+  padding:10px 35px;
+  background-color: #FEF5E0;
+  border-radius:10px;
+}
+
+.lecture-detail {
+  text-align:left;
+  width:900px;
+  padding:10px 0 0 ;
+}
+
+.lecture-detail p {
+  color:#333333;
+  font-size:14px;
+}
+
+.flow-headline {
+  padding:20px;
+  width:200px;
+  box-sizing: border-box;
+}
+
+.flow-headline > .fa-angle-down {
+  display:none;
+}
+
+.flow-headline h3 {
+  text-decoration: none;
+}
+
+.lecture-detail h4 {
+  color:#333333;
+  font-size:16px;
+}
+/*----------------------------------------------*/
+/*バンコクである理由*/
+/*----------------------------------------------*/
+#learning-environment {
+  width:100%;
+  padding:80px;
+  box-sizing: border-box;
+  background-image: url(image/bangkokbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#environment-message {
+  margin:0 55px;
+}
+
+#environment-message h2 {
+  color:white;
+  font-size:24px;
+  margin-bottom:10px;
+}
+
+#environment-message h3
+ {
+  color:white;
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+#environment-message h2 + p {
+  color:white;
+  font-size:14px;
+  font-weight: 100;
+    margin-bottom:10px;
+}
+
+.message-list {
+  margin-bottom:10px;
+  color:white;
+}
+
+/*----------------------------------------------*/
+/*参加者特典*/
+/*----------------------------------------------*/
+
+#benefit {
+  width:100%;
+  padding:40px 0;
+  background-color:#F7C23C;
+  text-align:center;
+}
+
+#benefit h2 {
+  font-size:28px;
+  margin:20px 0 40px;
+}
+
+#benefit p {
+  font-size:16px;
+  margin:0 0 10px;
+}
+
+#benefit span {
+  color:white;
+}
+
+
+#benefit-details {
+  display:flex;
+  justify-content: space-evenly;
+  border:2px solid white;
+  margin:40px 135px 0;
+  padding:40px;
+}
+
+
+#benefit h3 {
+  font-size:28px;
+  margin:0 0 10px;
+  display: inline-block;
+  background-color: #F7C23C;
+  top:70px;
+  position: relative;
+}
+
+.benefit-detail {
+  box-sizing: border-box;
+  width:250px;
+  height:250px;
+  background-color: white;
+  border-radius: 50%;
+  padding:55px 15px;
+}
+
+.benefit-detail h4 {
+  font-size:24px;
+  margin:0 0 10px;
+  color: #F7C23C;
+  font-weight: normal;
+}
+
+.benefit-detail > p {
+  font-size:14px;
+  margin:0 0 10px;
+}
+
+
+/*----------------------------------------------*/
+/*ミドルメッセージ３*/
+/*----------------------------------------------*/
+#middle-message4 {
+  width:100%;
+  padding:40px 0;
+  box-sizing: border-box;
+  background-image: url(image/specialdetail.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#middle-message4 h2 {
+  color:white;
+  font-size:28px;
+  letter-spacing: 1px;
+}
+
+#middle-message4 h3 {
+  color:white;
+  font-weight: lighter;
+  margin:0 0 40px;
+  font-size:20px;
+  letter-spacing: 0.1em;
+}
+
+#message-point {
+  position: relative;
+  width:800px;
+  margin:20px auto;
+  padding:15px 30px;
+  font-size:28px;
+  text-align: center;
+  position:relative;
+}
+
+/*----------------------------------------------*/
+/*創業者のメッセージ*/
+/*----------------------------------------------*/
+#member-message {
+  width:100%;
+  padding:40px 0;
+  text-align: center;
+}
+
+#member-message h2 {
+  font-size:28px;
+  margin:20px 0 35px;
+}
+
+#member-message h3 {
+  font-size:20px;
+  margin:0 0 10px;
+}
+
+#member-messagedetail {
+  display:flex;
+  justify-content: center;
+  width:890px;
+  margin:30px auto;
+  text-align: left;
+}
+
+#member-messagedetail img {
+  width:192.5px;
+  height:144.38px;
+}
+
+#member-messagedetail-in {
+  padding:0 15px;
+}
+
+#member-messagedetail-in p {
+  margin:0 0 10px;
+  font-size:14px;
+  color:#333333;
+}
+
+/*----------------------------------------------*/
+/*問合せフォーム*/
+/*----------------------------------------------*/
+#contact-form {
+  width:100%;
+  padding:40px 0;
+  margin: 0 auto;
+  background-color: #F7C23C;
+  text-align: center;
+}
+
+#contact-form h2 {
+  font-size:28px;
+  color:#333333;
+}
+
+#contact-form p {
+  font-size:16px;
+  color:#333333;
+}
+
+#contact-format {
+  width:60%;
+  margin: 0 auto;
+}
+
+#contact-format input {
+  width:100%;
+  margin: 0 0 25px;
+  height:55px;
+  padding:10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+}
+
+#contact-format textarea {
+  width:100%;
+  margin: 15px 0 25px;
+  height:100px;
+  padding:10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+}
+
+#send {
+  width:60%;
+  margin: 0 auto;
+  height:55px;
+  padding:10px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 25px;
+  background-color: #DA6B64;
+  color:white;
+  font-size:20px;
+  letter-spacing: 1em;
+}
+
+/*----------------------------------------------*/
+/*よくある質問*/
+/*----------------------------------------------*/
+
+#questions {
+  width:100%;
+  padding:40px 0;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+#questions h2 {
+  font-size: 28px;
+}
+
+
+/*ボタン装飾*/
+.question-box {
+    width:75%;
+    margin:0 auto 5px;
+    position:relative;
+    text-align: left;
+}
+
+.fa-question-circle {
+  color:#016EA9;
+}
+
+.question-detail {
+  padding: 20px;
+  font-weight: bold;
+  border: solid 2px black;
+  cursor :pointer;
+  font-size:20px;
+  border: 1px solid #dcdcdc;
+  display:flex;
+  align-items: center;
+  box-sizing: border-box;
+  height:64px;
+}
+
+.question {
+  margin:0;
+  flex:1 0 auto;
+}
+
+.question:hover {
+  text-decoration: underline;
+}
+
+.fa-angle-down {
+  color:#dcdcdc;
+  font-size:30px;
+  display:block;
+  transform: rotate(0deg);
+  transition: transform. 0.5s;
+}
+
+.rotate { transform: rotate(180deg); }
+
+.question-box > p{
+  font-weight:bolder;
+  margin:0 auto;
+  padding:20px;
+  box-sizing: border-box;
+  letter-spacing: 0.1em;
+  display:none;
+}
+
+/*----------------------------------------------*/
+/*フッター*/
+/*----------------------------------------------*/
+.footer {
+  width:100%
+}
+
+footer {
+  width:100%;
+  text-align: center;
+  padding:40px 0 20px;
+  background-color: #ECECEC;
+  display: block;
+  margin-top:40px;
+}
+
+footer small {
+  display: block;
+  font-size:10px;
+  color:#333333;
+  letter-spacing: 0.1em;
+  line-height:1.5em;
+  margin-top:15px;
+}
+
+footer span {
+  color:#337EB7;
+}
